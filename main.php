@@ -192,7 +192,7 @@ if (isset($_POST['filterSubmit']) && ($_SESSION['role'] ?? '') === 'Admin') {
     <title></title>
 </head>
     <body>
-<img src="images/pda2.png" alt="" style="position: absolute;">
+<img src="pda2.png" alt="" style="position: absolute;">
 <a href="https://www.moddb.com/mods/stalker-anomaly/addons/interactive-pda-01" target="_blank" style="top:750px; position: absolute; left: 35px">Zdroje</a>
     <div class = "warning">
         <h2>Warning, re-sending order for each category will replace the previous one.</h2>
@@ -489,5 +489,6 @@ if (isset($_POST['filterSubmit']) && ($_SESSION['role'] ?? '') === 'Admin') {
 </script>
 
     </body>
+
 
 
